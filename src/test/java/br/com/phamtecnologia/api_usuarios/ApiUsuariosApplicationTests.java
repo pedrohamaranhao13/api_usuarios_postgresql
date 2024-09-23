@@ -1,5 +1,7 @@
 package br.com.phamtecnologia.api_usuarios;
 
+import static org.junit.jupiter.api.Assertions.*;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
@@ -7,7 +9,18 @@ import org.springframework.boot.test.context.SpringBootTest;
 class ApiUsuariosApplicationTests {
 
 	@Test
-	void contextLoads() {
+	public void testCriarUsuario() {
+		fail("Não implementado");
+	}
+
+	@Test
+	public void testAutenticar() {
+		fail("Não implementado");
+	}
+
+	@Test
+	public void testRecuperarSenha() {
+		fail("Não implementado");
 	}
 
 }
